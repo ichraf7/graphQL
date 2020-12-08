@@ -1,0 +1,20 @@
+<p>tweet works!</p>
+<form [formGroup]="form">
+<div  >
+    <label for="tweet">tweet</label>
+    <input type="text" class="form-control" id="tweet"
+           required
+           formControlName="text">
+  </div>
+  <div  >
+    <label for="tags">tags</label>
+    <input type="text" class="form-control" id="tags"
+           required
+           formControlName="tags">
+  </div>
+
+  <button (click)="addTweet()">submit</button>
+  <button (click)="updateTweet('kkkkk')">test</button>
+  <button (click)="deleteTweet('kkkkk')">delete</button>
+
+</form>

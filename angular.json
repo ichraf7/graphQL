@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "hassura"
+  "defaultProject": "hassura",
+  "cli": {
+    "analytics": "3d3ad855-9714-4564-9caf-9d822bc5b3bf"
+  }
 }
